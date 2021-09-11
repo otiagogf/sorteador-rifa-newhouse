@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="/estilos.css">
+        <script src="https://kit.fontawesome.com/ef021dbb2d.js"></script>
+        <title>Sorteio Mari ❤ Tiago</title>
+    </head>
+
+    <body>   
+
+        <header>
+            <h2 class="logo">Sorteio &#127968;</h2>
+        </header>
+
+        <main>
+            <div class="principal">
+                <div class="container">
+                    <div class="valores">
+                        <p>Valor mínimo <input type="number" name="minimo" id="minimo" placeholder="Digite um valor..."></p>
+                        <p>Valor máximo <input type="number" name="maximo" id="maximo" placeholder="Digite um valor..."></p>
+                    </div>
+                    <div class="botoes">
+                        <button role="button" class="botao" onclick="sorteio()">
+                            Sortear
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button role="button" class="botao" onclick="limpar()">
+                            Limpar
+                            <i class="fas fa-backspace"></i>
+                        </button>
+                    </div>          
+                    <div class="resultado-mensagem">
+                        <h1 id="resultado"></h1>
+                    </div>                    
+                </div>
+            </div>
+        </main> 
+
+        <footer>
+            <div class="container">
+                <h2 class="footer-nomes">Mariana </h2>
+                <h2 class="footer-coracao">&#x2764</h2>
+                <h2 class="footer-nomes">Tiago</h2>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
